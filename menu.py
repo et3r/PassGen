@@ -37,4 +37,4 @@ def editkw():
 
     keywords[edit_index-1] = edit
 
-    print("\n[*] %s was replaced for %s successfully!" % (last_edit, edit))
+    print("\n[*] %s was successfully replaced for %s!" % (last_edit, edit))

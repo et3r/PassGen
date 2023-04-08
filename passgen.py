@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import menu
+import menu, generator
 
 if __name__ == '__main__':
 
@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
         match option:
             case 1:
-                print("gen")
+                generator.generate(menu.keywords)
                 break # breaks the bucle, not the match statement
             case 2:
                 menu.showkw()
